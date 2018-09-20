@@ -2,21 +2,53 @@
     width: 80%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+    padding: 2%;
+}
+
+body{
+    background-image: url("../img/hojas.jpg");
 }
 
 /* ----- HEADER ----- */
+.logo, #menu{
+    text-transform: uppercase;
+}
 
 .logo{
-    text-transform: uppercase;
     background: #265c3e;
     padding: 0.5%;
     font-weight: bold;
-    color: #ffffff;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
-    width: 25%;
+    width: 30%;
 }
 
-nav ul li{
-    list-style-type: none;
+.logo, #menu a{
+    color: #ffffff;
+}
+
+ #menu{
+    width: 100%;
+    background: #333333;
+    padding: 0;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 2%;
+}
+
+#menu a{
+    text-decoration: none;
+    display: block;
+}
+
+#menu li:hover{
+    background: #265c3e;
+    cursor: pointer;
 }
