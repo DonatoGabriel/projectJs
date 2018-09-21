@@ -1,9 +1,11 @@
 .container{
     width: 80%;
-    margin: auto;
+    margin: 2% auto 0 auto;
     font-family: 'Roboto', sans-serif;
     background: #ffffff;
     padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 body{
@@ -11,6 +13,10 @@ body{
 }
 
 /* ----- HEADER ----- */
+header,  #menu, img{
+    width: 100%;
+}
+
 .logo, #menu{
     text-transform: uppercase;
 }
@@ -29,7 +35,6 @@ body{
 }
 
  #menu{
-    width: 100%;
     background: #333333;
     padding: 0;
 }
@@ -51,4 +56,18 @@ body{
 #menu li:hover{
     background: #265c3e;
     cursor: pointer;
+}
+
+/* ----- ARTICLE ----- */
+#posts{
+    width: 70%;
+}
+
+#sidebar{
+    width: 28%;
+    margin-left: 2%;
+}
+
+#posts, #sidebar{
+    float: left;
 }
