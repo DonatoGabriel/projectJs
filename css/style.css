@@ -1,6 +1,6 @@
 .container{
-    width: 80%;
-    margin: 2% auto 0 auto;
+    width: 70%;
+    margin: 2% auto;
     font-family: 'Roboto', sans-serif;
     background: #ffffff;
     padding: 2%;
@@ -25,9 +25,9 @@ header,  #menu, img{
     background: #265c3e;
     padding: 0.5%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    width: 30%;
+    width: 40%;
 }
 
 .logo, #menu a{
@@ -63,6 +63,35 @@ header,  #menu, img{
     width: 70%;
 }
 
+.article-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.article-header{
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+.article-date{
+    color: #a19f95;
+}
+
+.article-info{
+    width: 80%;
+    float: left;
+}
+
+.article-commentaries{
+    color: #ffffff;
+    background: #265c3e;
+    width: 20%;
+    padding-top: 2%;
+    float: left;
+    text-align: center;
+}
+
+/* ----- SIDEBAR ----- */
 #sidebar{
     width: 28%;
     margin-left: 2%;
