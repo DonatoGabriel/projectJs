@@ -25,7 +25,7 @@ header,  #menu, img{
     background: #265c3e;
     padding: 0.5%;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 3.5em;
     text-align: center;
     width: 40%;
 }
@@ -63,6 +63,10 @@ header,  #menu, img{
     width: 70%;
 }
 
+#posts article{
+    margin: 2% 0;
+}
+
 .article-title{
     font-weight: bold;
     font-size: 25px;
@@ -86,7 +90,7 @@ header,  #menu, img{
     color: #ffffff;
     background: #265c3e;
     width: 20%;
-    padding-top: 2%;
+    padding-top: 15px;
     float: left;
     text-align: center;
 }
@@ -99,4 +103,10 @@ header,  #menu, img{
 
 #posts, #sidebar{
     float: left;
+}
+
+#about h3{
+    text-align: center;
+    line-height: 10px;
+    margin-top: 50px;
 }
